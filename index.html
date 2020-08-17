@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <script src="./index.mjs" type="module"></script>
+    <link rel="stylesheet" href="./style.css" />
+    <title>News</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="page-title">News Feed</h1>
+      <div id="search-title"></div>
+      <form id="news-search" autocomplete="off" class="form-wrapper">
+        <div class="autocomplete">
+          <input
+            id="myInput"
+            class="myInput"
+            type="text"
+            placeholder="Search for..."
+            required
+          />
+          <input type="submit" value="Search" id="submit" class="submit" />
+        </div>
+      </form>
+
+      <div id="news-list" class="news-list"></div>
+      <div class="controllers">
+        <button class="pagination-button prev-btn">Prev</button>
+        <button class="pagination-button next-btn">Next</button>
+      </div>
+    </div>
+  </body>
+</html>
