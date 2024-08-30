@@ -1,6 +1,6 @@
 ## New List
 
-A home work I did for an interview in January. Try it [here](https://catmorphic.github.io/news-list/)
+A home work I did for an interview in January. Try it [here](https://leihuang23.github.io/news-list/)
 
 ### Requirements:
 
